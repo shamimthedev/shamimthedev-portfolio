@@ -47,14 +47,14 @@ export const TestimonialsSection = () => {
       <section className='py-16 lg:py-24'>
         <div className="container">
           <SectionHeader eyebrow="Happy Clients" title="What Clients Say about Me" description="See what my clients have to say about my work." />
-          <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
+          <div className="mt-12 lg:mt-20 flex overflow-x-clip mask-[linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
             <div className="flex gap-8 pr-8 flex-none move-left [animation-duration:90s] hover:[animation-play-state:paused]">
               {[...new Array(2)].fill(0).map((_, index) => (
                 <Fragment key={index}>
                   {testimonials.map((testimonial) => (
                     <Card key={testimonial.name} className="p-6 max-w-xs md:max-w-md md:p-8 hover:-rotate-3 transition duration-300">
                       <div className="flex items-center gap-4">
-                        <div className="size-14 bg-gray-700 rounded-full inline-flex items-center justify-center flex-shrink-0">
+                        <div className="size-14 bg-gray-700 rounded-full inline-flex items-center justify-center shrink-0">
                           <Image src={testimonial.avatar} alt={testimonial.name} className="max-h-full" />
                         </div>
                         <div>

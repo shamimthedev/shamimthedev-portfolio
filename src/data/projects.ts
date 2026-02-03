@@ -1,86 +1,73 @@
-import Nestmart from "@/assets/images/nestmart.png";
-import MangoBazar from "@/assets/images/mango-bazar.png";
-import PinkCart from "@/assets/images/pinkcart.png";
-import ViteCart from "@/assets/images/vitecart.png";
-import Kosi from "@/assets/images/kosi.png";
+import Amyra from "@/assets/projects/amyra.webp";
+import PlugNPlay from "@/assets/projects/plugnplay.webp";
+import Kosi from "@/assets/projects/kosi.webp";
 
-const portfolioProjects = [
+export const projects = [
   {
-    tech: ["React", "Redux Toolkit", "Material-UI", "Framer Motion", "Leaflet Maps"],
-    title: "NestMart - Where Shopping Feels Like Home",
-    results: [
-      { title: "Built full-featured multipurpose eCommerce with advanced UI components." },
-      { title: "Implemented Redux state management with cart persistence and user preferences." },
-      { title: "Integrated interactive maps and smooth animations for premium UX." },
+    title: "amyra.com.bd — Live Client Project",
+    description:
+      "Production-ready business website built for a real client. I owned the complete frontend lifecycle including design, development, CMS integration, deployment, and ongoing maintenance.",
+    tech: [
+      "Next.js 15",
+      "TypeScript",
+      "Tailwind CSS",
+      "Sanity CMS",
+      "Vercel",
     ],
-    git: "https://github.com/shamimthedev/nestmart-ecommerce",
-    live: "https://nestmart-ecommerce.vercel.app/",
-    image: Nestmart,
+    highlights: [
+      "Designed and developed the full frontend from scratch",
+      "Integrated Sanity CMS for dynamic content and product management",
+      "Deployed and currently maintaining the live production website",
+      "Ensured responsive design, accessibility, and cross-device compatibility",
+    ],
+    live: "https://amyra.com.bd",
+    image: Amyra,
+    featured: true,
+    category: "Client Work",
   },
   {
-    tech: ["Next.js", "Redux Toolkit", "Tailwind CSS", "SEO Optimization"],
-    title: "Chapai Mango Bazar - Premium Mango Marketplace",
-    results: [
-      { title: "Developed specialized mango e-commerce platform with location-based features." },
-      { title: "Enhanced user experience by 40% through intuitive navigation and fast loading." },
-      { title: "Implemented advanced SEO strategies for better organic search visibility." },
+    title: "PlugNPlay — Premium Tech Gadget E-Commerce",
+    description:
+      "A full-featured e-commerce platform showcasing advanced frontend architecture, state management, and a complete checkout experience tailored for the Bangladesh market.",
+    tech: [
+      "Next.js 15",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Radix UI",
+      "Embla Carousel",
     ],
-    git: "https://github.com/shamimthedev/chapai-mango-bazar",
-    live: "https://chapaimangobazar.com/",
-    image: MangoBazar,
+    highlights: [
+      "Advanced product filtering by category, price, brand, and rating",
+      "Cart management with Zustand and local storage persistence",
+      "Complete checkout flow with COD, bKash, Nagad, and Card payments",
+      "Flash sales, countdown timers, hero carousel, and curated sections",
+    ],
+    live: "https://plugnplay-lime.vercel.app",
+    image: PlugNPlay,
+    featured: true,
+    category: "Featured Project",
   },
   {
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Modern Animations"],
-    title: "PinkCart - Where Quality Meets Style",
-    results: [
-      { title: "Created modern e-commerce platform with dynamic product showcases." },
-      { title: "Designed interactive hero section with smooth slider animations." },
-      { title: "Implemented responsive design with sticky navigation for optimal mobile UX." },
+    title: "Kosi — Premium Furniture & Home Decor Store",
+    description:
+      "A premium e-commerce storefront focused on polished UI, smooth animations, and performance optimization using modern Next.js features.",
+    tech: [
+      "Next.js 15",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Framer Motion",
     ],
-    git: "https://github.com/shamimthedev/pinkcart-ecommerce",
-    live: "https://pinkcart-nextjs.vercel.app/",
-    image: PinkCart
+    highlights: [
+      "Dedicated shop page with dynamic filtering and grid/list view modes",
+      "High-end user experience with smooth animations and hover effects",
+      "Optimized performance using Next.js image optimization and routing",
+      "Clean, accessible, and fully responsive design",
+    ],
+    live: "https://kosii.vercel.app",
+    image: Kosi,
+    featured: true,
+    category: "Featured Project",
   },
-  {
-    tech: ["React", "Redux Toolkit", "Tailwind CSS", "Toast Notifications"],
-    title: "Kosi - Crafted for Comfort",
-    results: [
-      { title: "Developed premium furniture store with sophisticated product presentation." },
-      { title: "Integrated Redux Toolkit for seamless cart and wishlist management." },
-      { title: "Designed elegant, comfort-focused UI reflecting premium furniture branding." },
-    ],
-    git: "https://github.com/shamimthedev/kosi-furniture-store",
-    live: "https://kosi-furniture.vercel.app/",
-    image: Kosi
-  },
-  {
-    tech: ["React", "Vite", "Tailwind CSS", "React Slick"],
-    title: "ViteCart - Lightning Fast Shopping",
-    results: [
-      { title: "Built high-performance e-commerce with Vite for ultra-fast development." },
-      { title: "Implemented smooth product carousels and modern UI components." },
-      { title: "Optimized for speed with lazy loading and efficient state management." },
-    ],
-    git: "https://github.com/shamimthedev/vitecart-shop",
-    live: "https://vitecart-shop.vercel.app/",
-    image: ViteCart,
-  }
 ];
-
-// Additional project suggestions for future additions:
-const upcomingProjects = [
-  {
-    tech: ["React", "Vite", "Tailwind CSS", "React Slick"],
-    title: "ViteCart - Lightning Fast Shopping",
-    results: [
-      { title: "Built high-performance e-commerce with Vite for ultra-fast development." },
-      { title: "Implemented smooth product carousels and modern UI components." },
-      { title: "Optimized for speed with lazy loading and efficient state management." },
-    ],
-    git: "https://github.com/shamimthedev/vitecart-shop",
-    live: "https://vitecart-demo.vercel.app/",
-    // image: ViteCart, // When you add the image
-  }
-];
-
-export { portfolioProjects, upcomingProjects };
