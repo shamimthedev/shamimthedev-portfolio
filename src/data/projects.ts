@@ -10,9 +10,7 @@ export const projects = [
     tech: [
       "Next.js 15",
       "TypeScript",
-      "Tailwind CSS",
       "Sanity CMS",
-      "Vercel",
     ],
     highlights: [
       "Designed and developed the full frontend from scratch",
@@ -32,10 +30,7 @@ export const projects = [
     tech: [
       "Next.js 15",
       "TypeScript",
-      "Tailwind CSS",
       "Zustand",
-      "Radix UI",
-      "Embla Carousel",
     ],
     highlights: [
       "Advanced product filtering by category, price, brand, and rating",
@@ -55,8 +50,6 @@ export const projects = [
     tech: [
       "Next.js 15",
       "TypeScript",
-      "Tailwind CSS",
-      "Zustand",
       "Framer Motion",
     ],
     highlights: [
