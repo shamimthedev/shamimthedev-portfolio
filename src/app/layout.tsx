@@ -16,23 +16,22 @@ const calistoga = Calistoga({
 
 export const metadata: Metadata = {
   title: {
-    default: "Md. Shamim Hossain - Frontend Developer & Digital Marketer",
-    template: "%s | Md. Shamim Hossain"
+    default: "Md. Shamim Hossain — Frontend Engineer",
+    template: "%s | Md. Shamim Hossain",
   },
-  description: "Md. Shamim Hossain is a Frontend Developer and Digital Marketing expert from Bangladesh, specializing in React, Next.js, and modern web technologies. Founder of GroWise Studio, delivering exceptional digital solutions.",
+  description:
+    "Frontend Engineer specializing in Next.js and TypeScript. Building fast, scalable, and user-focused web applications with strong performance, accessibility, and clean architecture.",
   keywords: [
-    "Shamim Hossain",
+    "Md. Shamim Hossain",
     "ShamimTheDev",
-    "frontend developer Bangladesh",
-    "digital marketing expert",
-    "React developer",
-    "Next.js specialist",
-    "web development services",
-    "GroWise Studio",
-    "freelance developer Dhaka",
-    "modern web technologies",
-    "TypeScript developer",
-    "Tailwind CSS expert"
+    "Frontend Engineer",
+    "Next.js Developer",
+    "TypeScript",
+    "React",
+    "Tailwind CSS",
+    "Web Performance",
+    "Accessibility",
+    "E-commerce Frontend",
   ],
   authors: [{ name: "Md. Shamim Hossain" }],
   creator: "Md. Shamim Hossain",
@@ -44,34 +43,34 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://shamimthedev.vercel.app", 
-    siteName: "Md. Shamim Hossain Portfolio",
-    title: "Md. Shamim Hossain - Frontend Developer & Digital Marketer",
-    description: "Frontend Developer and Digital Marketing expert from Bangladesh. Specializing in React, Next.js, and modern web technologies.",
+    url: "https://shamimthedev.vercel.app",
+    siteName: "Shamim Hossain — Frontend Engineer",
+    title: "Md. Shamim Hossain — Frontend Engineer",
+    description:
+      "Frontend Engineer building high-performance, scalable web applications using Next.js and TypeScript.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Md. Shamim Hossain - Frontend Developer & Digital Marketer",
+        alt: "Md. Shamim Hossain — Frontend Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Md. Shamim Hossain - Frontend Developer & Digital Marketer",
-    description: "Frontend Developer and Digital Marketing expert from Bangladesh. Specializing in React, Next.js, and modern web technologies.",
-    images: ["/og-image.jpg"], // Same image as OpenGraph
+    title: "Md. Shamim Hossain — Frontend Engineer",
+    description:
+      "Frontend Engineer specializing in Next.js, TypeScript, and modern web application development.",
+    images: ["/og-image.jpg"],
     creator: "@shamimthedev",
   },
   robots: {
     index: true,
     follow: true,
-    nocache: true,
     googleBot: {
       index: true,
       follow: true,
-      noimageindex: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
@@ -88,40 +87,33 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     "@type": "Person",
     name: "Md. Shamim Hossain",
     alternateName: "Shamim Hossain",
-    jobTitle: "Frontend Developer & Digital Marketer",
-    description: "Frontend Developer and Digital Marketing expert from Bangladesh. Founder of GroWise Studio.",
-    url: "https://shamimthedev.vercel.app", 
+    jobTitle: "Frontend Engineer",
+    description:
+      "Frontend Engineer specializing in building fast, scalable, and accessible web applications using Next.js and TypeScript.",
+    url: "https://shamimthedev.vercel.app",
     image: "https://shamimthedev.vercel.app/profile-image.png",
     sameAs: [
-      "https://linkedin.com/in/shamimthedev", 
-      "https://github.com/shamimthedev", 
-      "https://facebook.com/shamimthedev", 
-      "https://instagram.com/shamimthedev", 
-      // Add other social profiles
+      "https://linkedin.com/in/shamimthedev",
+      "https://github.com/shamimthedev",
+      "https://facebook.com/shamimthedev",
     ],
-    worksFor: {
-      "@type": "Organization",
-      name: "GroWise Studio",
-      url: "https://growisestudio.vercel.app", 
-    },
     knowsAbout: [
       "Frontend Development",
-      "Digital Marketing",
-      "React",
       "Next.js",
-      "JavaScript",
       "TypeScript",
-      "Web Development",
-      "SEO",
-      "Content Marketing"
+      "React",
+      "Web Performance",
+      "Accessibility",
+      "Semantic HTML",
+      "E-commerce Frontend",
     ],
     nationality: "Bangladesh",
     address: {
       "@type": "PostalAddress",
       addressCountry: "BD",
       addressRegion: "Dhaka Division",
-      addressLocality: "Dhaka"
-    }
+      addressLocality: "Dhaka",
+    },
   };
 
   return (
@@ -132,7 +124,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${inter.variable} ${calistoga.variable} bg-gray-900 text-white antialiased font-sans`}>
+      <body
+        className={`${inter.variable} ${calistoga.variable} bg-gray-900 text-white antialiased font-sans`}
+      >
         {children}
       </body>
     </html>

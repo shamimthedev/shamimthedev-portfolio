@@ -3,6 +3,7 @@ import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import ArrowUpRightDownIcon from '@/assets/icons/arrow-up-right.svg'
 import CheckboxIcon from '@/assets/icons/check-circle.svg'
+import Github from '@/assets/icons/github-icon.svg'
 import { projects } from "@/data/projects";
 
 export const ProjectsSection = () => {
@@ -26,7 +27,7 @@ export const ProjectsSection = () => {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   {project.category && (
-                    <div className="inline-block bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text font-bold tracking-widest text-xs uppercase mb-2">
+                    <div className="inline-block bg-linear-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text font-bold tracking-widest text-xs uppercase mb-2">
                       {project.category}
                     </div>
                   )}
@@ -56,13 +57,25 @@ export const ProjectsSection = () => {
                         className="flex gap-2 text-sm text-white/50"
                         key={index}
                       >
-                        <CheckboxIcon className='size-5 flex-shrink-0' />
+                        <CheckboxIcon className='size-5 shrink-0' />
                         <span>{highlight}</span>
                       </li>
                     ))}
                   </ul>
 
                   <div className="flex flex-col sm:flex-row mt-6 gap-3 relative z-10">
+                    {projectIndex === 2 && (
+                      <a 
+                        href="https://github.com/shamimthedev/kosi-furniture-store" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center gap-2 border border-white/15 px-5 h-11 rounded-xl hover:bg-white/5 cursor-pointer" 
+                        aria-label="GitHub"
+                      >
+                        <span className="font-semibold">GitHub</span>
+                        <Github className='size-5' />
+                      </a>
+                    )}
                     <a 
                       href={project.live} 
                       target="_blank"

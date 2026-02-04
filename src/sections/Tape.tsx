@@ -2,17 +2,16 @@ import StarIcon from '@/assets/icons/star.svg'
 import { Fragment } from 'react'
 
 const words = [
+  'Production-Ready',
   'Performant',
   'Accessible',
-  'Secure',
-  'Interactive',
   'Scalable',
-  'User Friendly',
-  'Responsive',
   'Maintainable',
-  'Search Optimized',
-  'Usable',
-  'Reliable'
+  'SEO-Friendly',
+  'Responsive',
+  'CMS-Driven',
+  'Business-Focused',
+  'Modern Frontend'
 ]
 
 export const TapeSection = () => {
@@ -25,7 +24,7 @@ export const TapeSection = () => {
               <Fragment key={index}>
                 {words.map((word) => (
                   <div key={word} className="inline-flex gap-4 items-center">
-                    <span className="uppercase text-gray-900 font-extrabold text-sm">{word}</span>
+                    <span className="uppercase text-gray-900 font-bold tracking-wide text-sm">{word}</span>
                     <StarIcon className="size-6 text-gray-900 -rotate-12" />
                   </div>
                 ))}
