@@ -1,6 +1,6 @@
-import Amyra from "@/assets/projects/amyra.png";
-import PlugNPlay from "@/assets/projects/plugnplay.png";
-import Kosi from "@/assets/projects/kosi.png";
+import Amyra from "@/assets/projects/amyra.webp";
+import PlugNPlay from "@/assets/projects/plugnplay.webp";
+import Kosi from "@/assets/projects/kosi.webp";
 
 export const projects = [
   {
