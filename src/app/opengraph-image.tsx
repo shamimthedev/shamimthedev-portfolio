@@ -38,7 +38,7 @@ export default async function Image() {
           }}
         >
           <img
-            src={imageData as any}
+            src={imageData as unknown as string}
             alt="Md. Shamim Hossain"
             width={380}
             height={380}
