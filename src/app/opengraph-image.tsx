@@ -10,9 +10,10 @@ export const contentType = 'image/png'
 
 // Image generation
 export default async function Image() {
-  // Fetch your profile image
+  // Fetch your profile image from the public directory
+  // Make sure you have profile-image.png in your /public folder
   const imageData = await fetch(
-    new URL('./profile-image.png', import.meta.url)
+    new URL('https://shamimthedev.vercel.app/profile-image.png')
   ).then((res) => res.arrayBuffer())
 
   return new ImageResponse(
