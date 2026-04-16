@@ -3,7 +3,6 @@ import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import ArrowUpRightDownIcon from '@/assets/icons/arrow-up-right.svg'
 import CheckboxIcon from '@/assets/icons/check-circle.svg'
-import Github from '@/assets/icons/github-icon.svg'
 import { projects } from "@/data/projects";
 
 export const ProjectsSection = () => {
@@ -64,18 +63,6 @@ export const ProjectsSection = () => {
                   </ul>
 
                   <div className="flex flex-col sm:flex-row mt-6 gap-3 relative z-10">
-                    {projectIndex === 2 && (
-                      <a 
-                        href="https://github.com/shamimthedev/kosi-furniture-store" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center gap-2 border border-white/15 px-5 h-11 rounded-xl hover:bg-white/5 cursor-pointer" 
-                        aria-label="GitHub"
-                      >
-                        <span className="font-semibold">GitHub</span>
-                        <Github className='size-5' />
-                      </a>
-                    )}
                     <a 
                       href={project.live} 
                       target="_blank"

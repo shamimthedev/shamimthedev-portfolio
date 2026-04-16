@@ -1,8 +1,22 @@
+import Biddaloy from "@/assets/projects/biddaloy.webp";
 import Amyra from "@/assets/projects/amyra.webp";
 import PlugNPlay from "@/assets/projects/plugnplay.webp";
-import Kosi from "@/assets/projects/kosi.webp";
 
 export const projects = [
+  {
+    title: "biddaloy.com.bd — EdTech Platform for Kids",
+    tech: ["Next.js 15", "TypeScript", "Sanity CMS", "Supabase", "bKash PGW"],
+    highlights: [
+      "Built a full EdTech ecosystem — public site, payment gateway, and admin dashboard",
+      "Messenger Conversion System: Facebook leads land on a dedicated enrollment page with source tracking",
+      "5 payment methods: bKash (automated PGW), Nagad, Rocket, Probashi bKash, and PhonePe",
+      "Real-time Telegram alerts on every payment; 200+ active students across BD & India",
+    ],
+    live: "https://biddaloy.com.bd",
+    image: Biddaloy,
+    featured: true,
+    category: "Client Work",
+  },
   {
     title: "amyra.com.bd — Live Client Project",
     tech: ["Next.js 15", "TypeScript", "Sanity CMS"],
@@ -26,23 +40,8 @@ export const projects = [
       "Complete checkout flow with COD, bKash, Nagad, and Card payments",
       "Flash sales, countdown timers, hero carousel, and curated sections",
     ],
-    live: "https://plugnplay-lime.vercel.app",
+    live: "https://plugnplay-delta.vercel.app",
     image: PlugNPlay,
-    featured: true,
-    category: "Featured Project",
-  },
-  {
-    title: "Kosi — Premium Furniture & Home Decor Store",
-    tech: ["Next.js 15", "TypeScript", "Framer Motion"],
-    highlights: [
-      "Dedicated shop page with dynamic filtering and grid/list view modes",
-      "High-end user experience with smooth animations and hover effects",
-      "Optimized performance using Next.js image optimization and routing",
-      "Clean, accessible, and fully responsive design",
-    ],
-    live: "https://kosii.vercel.app",
-    git: "https://github.com/shamimthedev/kosi-furniture-store",
-    image: Kosi,
     featured: true,
     category: "Featured Project",
   },
