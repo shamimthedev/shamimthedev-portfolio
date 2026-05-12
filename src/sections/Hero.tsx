@@ -62,18 +62,18 @@ export const HeroSection = () => {
               <div className='bg-green-500 absolute inset-0 rounded-full ping-large'></div>
             </div>
             <div className="text-sm font-medium">
-              Available for frontend roles & projects
+              Available for full-stack roles & projects
             </div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Frontend Developer building production-ready web experiences
+            Full-Stack Developer building revenue-generating platforms
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specialize in <span className="text-white">Next.js & TypeScript</span>, building
-            scalable client websites and full-featured e-commerce platforms — from design
-            and development to deployment and maintenance.
+            I specialize in <span className="text-white">Next.js, TypeScript & Supabase</span>, building
+            production platforms with payment integrations — from EdTech systems serving 200+ students
+            to e-commerce solutions with bKash & multi-gateway checkout.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -82,7 +82,7 @@ export const HeroSection = () => {
             {/* down arrow icon */}
             <ArrowDown className='size-4' />
           </a>
-          <a href="/Md_Shamim_Hossain_Frontend_Developer.pdf" download="Md_Shamim_Hossain_Frontend_Developer.pdf"
+          <a href="/Md_Shamim_Hossain_Full_Stack_Developer.pdf" download="Md_Shamim_Hossain_Full_Stack_Developer.pdf"
             className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-5 h-12 rounded-xl hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-600 cursor-pointer relative z-50"
             aria-label="Download CV"
           >
