@@ -15,7 +15,7 @@ const footerLinks = [
     },
     {
         title: 'Resume',
-        href: '/Md_Shamim_Hossain_Frontend_Developer.pdf',
+        href: '/Md_Shamim_Hossain_Full_Stack_Developer.pdf',
     }
 ]
 export const FooterSection = () => {
