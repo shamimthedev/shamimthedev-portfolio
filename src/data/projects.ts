@@ -1,6 +1,5 @@
 import Biddaloy from "@/assets/projects/biddaloy.webp";
 import Amyra from "@/assets/projects/amyra.webp";
-import PlugNPlay from "@/assets/projects/plugnplay.webp";
 
 export const projects = [
   {
