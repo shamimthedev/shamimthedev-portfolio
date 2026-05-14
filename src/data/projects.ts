@@ -31,18 +31,4 @@ export const projects = [
     featured: true,
     category: "Client Work",
   },
-  {
-    title: "PlugNPlay — Premium Tech Gadget E-Commerce",
-    tech: ["Next.js 15", "TypeScript", "Zustand"],
-    highlights: [
-      "Advanced product filtering by category, price, brand, and rating",
-      "Cart management with Zustand and local storage persistence",
-      "Complete checkout flow with COD, bKash, Nagad, and Card payments",
-      "Flash sales, countdown timers, hero carousel, and curated sections",
-    ],
-    live: "https://plugnplay-delta.vercel.app",
-    image: PlugNPlay,
-    featured: true,
-    category: "Featured Project",
-  },
 ];
