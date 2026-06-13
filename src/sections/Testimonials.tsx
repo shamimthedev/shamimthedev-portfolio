@@ -8,14 +8,14 @@ const testimonials = [
     {
         name: "Rasheduzzaman Rashed",
         position: "Owner, Amyra Enterprise",
-        text: "আমার expectation থেকেও বেশি পেয়েছি। এখন মানুষ আমাকে professional business মনে করে।",
+        text: "আমার প্রত্যাশার থেকেও বেশি পেয়েছি। এখন মানুষ আমাকে প্রফেশনাল বিজনেস মনে করে।",
         avatar: avatar1,
         project: "amyra.com.bd · Ongoing maintenance",
     },
     {
         name: "Aminul Islam Bulbul",
         position: "Co-founder, Biddaloy",
-        text: "শামীম ভাইয়া এক কথায় একজন অসাধারন দক্ষ এবং জ্ঞানী মানুষ, বিজনেস রিলেটেড যেকোন পরামর্শের জন্য ভাইয়ার সাথে যোগাযোগ করতে পারেন সেই সাথে উনি ওয়েব ডেভেলপমেন্টে বস 🙏",
+        text: "শামীম ভাইয়া শুধু ওয়েব ডেভেলপমেন্ট না, বিজনেস নিয়েও খুব ভালো বুঝেন। আমাদের প্রজেক্টে উনার টেকনিক্যাল স্কিল, বিজনেস আন্ডারস্ট্যান্ডিং এবং গাইডেন্স অনেক হেল্পফুল ছিল।",
         avatar: avatar2,
         project: "biddaloy.com.bd · Full-stack platform",
     },
