@@ -92,7 +92,7 @@ export const AboutSection = () => {
             <div className='container'>
                 <SectionHeader
                     eyebrow="About"
-                    title="Engineer, Builder, Problem Solver"
+                    title="Developer, Builder, Problem Solver"
                     description="I design and build fast, usable web experiences with a strong focus on real business outcomes."
                 />
                 <div className="mt-20 flex flex-col gap-8">
